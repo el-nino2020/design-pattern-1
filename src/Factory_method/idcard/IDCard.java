@@ -1,10 +1,10 @@
-package factory_method.idcard;
+package Factory_method.idcard;
 
-import factory_method.framework.Product;
+import Factory_method.framework.Product;
 
 public class IDCard extends Product {
     private String owner;
-    
+
     //注意访问权限
     IDCard(String owner) {
         System.out.println("制作" + owner + "的ID卡");

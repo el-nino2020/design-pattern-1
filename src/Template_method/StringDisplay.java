@@ -1,4 +1,4 @@
-package template_method;
+package Template_method;
 
 public class StringDisplay extends AbstractDisplay {
     private String string;

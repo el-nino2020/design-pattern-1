@@ -1,4 +1,4 @@
-package template_method;
+package Template_method;
 
 public abstract class AbstractDisplay {
     public abstract void open();

@@ -1,4 +1,4 @@
-package template_method;
+package Template_method;
 
 public class Main {
     public static void main(String[] args) {
