@@ -1,11 +1,13 @@
 package Adapter.exercise2_2;
 
+import common.Param;
+
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
         //absolute path of parent directory of this file
-        String path = "D:\\CODES(daima)\\design-pattern-1\\src\\Adapter\\exercise2_2\\";
+        String path = Param.SRC_PATH + "Adapter\\exercise2_2\\";
         FileIO fileIO = new FileProperties();
         try {
             fileIO.readFromFile(path + "file.txt");

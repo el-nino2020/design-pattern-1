@@ -1,11 +1,13 @@
 package Builder;
 
+import common.Param;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 public class HTMLBuilder extends Builder {
-    private static final String FILE_DIRECTORY = "D:\\CODES(daima)\\design-pattern-1\\src\\Builder\\";
+    private static final String FILE_DIRECTORY = Param.SRC_PATH + "Builder\\";
     private String fileName;
     private PrintWriter writer;
 
