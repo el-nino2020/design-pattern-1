@@ -1,4 +1,4 @@
-package Adapter.inherit;
+package Adapter.inheritance;
 
 public class PrintBanner extends Banner implements Print {
     public PrintBanner(String string) {

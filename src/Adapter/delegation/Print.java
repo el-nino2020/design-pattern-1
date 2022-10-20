@@ -1,4 +1,4 @@
-package Adapter.compose;
+package Adapter.delegation;
 
 public abstract class Print {
     public abstract void printWeak();

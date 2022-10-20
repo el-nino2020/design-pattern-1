@@ -1,4 +1,4 @@
-package Adapter.compose;
+package Adapter.delegation;
 
 public class PrintBanner extends Print {
     private Banner banner;
